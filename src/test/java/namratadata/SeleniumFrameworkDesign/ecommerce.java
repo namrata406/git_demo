@@ -68,7 +68,10 @@ public class ecommerce {
 		driver.findElement(By.cssSelector(".btnn.action__submit")).click();
 		driver.close();
 		driver.quit();
-		
+		driver.quit(1);
+		driver.quit(2);
+		driver.quit(3);
+
 	
 
 
