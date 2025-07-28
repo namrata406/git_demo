@@ -67,6 +67,7 @@ public class ecommerce {
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector(".btnn.action__submit")).click();
 		driver.close();
+		driver.quit();
 		
 	
 
